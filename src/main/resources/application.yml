@@ -5,7 +5,6 @@ oauth2:
     redirect-uri: http://localhost:8080/login/oauth2/code/google
     token-uri: https://oauth2.googleapis.com/token
     resource-uri: https://www.googleapis.com/oauth2/v2/userinfo
-    scope: https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
   kakao:
     client-id: 클라이언트 ID
     admin-key: 어드민 KEY
