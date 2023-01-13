@@ -1,0 +1,20 @@
+oauth2:
+  google:
+    client-id: 클라이언트 ID
+    client-secret: 클라이언트 SECRET
+    redirect-uri: http://localhost:8080/login/oauth2/code/google
+    token-uri: https://oauth2.googleapis.com/token
+    resource-uri: https://www.googleapis.com/oauth2/v2/userinfo
+    scope: https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+  kakao:
+    client-id: 클라이언트 ID
+    admin-key: 어드민 KEY
+    redirect-uri: http://localhost:8080/login/oauth2/code/kakao
+    token-uri: https://kauth.kakao.com/oauth/token
+    resource-uri: https://kapi.kakao.com/v2/user/me
+  naver:
+    client-id: 클라이언트 ID
+    client-secret: 클라이언트 SECRET
+    redirect-uri: http://localhost:8080/login/oauth2/code/naver
+    token-uri: https://nid.naver.com/oauth2.0/token
+    resource-uri: https://openapi.naver.com/v1/nid/me
